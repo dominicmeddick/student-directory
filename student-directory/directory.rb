@@ -1,4 +1,4 @@
-student_count = 1
+student_count = 11
 
 puts "The students of Villains Academy"
 puts "----------------"
