@@ -27,17 +27,17 @@ end
 def show_students
   print_header
   print_students_list
-  print_footer(students)
+  print_footer
 end
 
 def process(selection)
   case selection
   when "1"
-    # input the students
+    input_students
   when "2"
-    # show the students
+    show_students
   when "9"
-    # this will case the program to terminate
+    exit
   else 
     puts "I don't know what you mean, try again"
   end
